@@ -121,22 +121,7 @@ def handle_delete_favorite(favorite_id):
 
 
 
-#@app.route('/favorites/<item_type>/<int:item_id>', methods=["Post"])
-#def handle_post_favorites(item_type, item_id):
- #   new_favorite=Favorite()
-  #  new_favorite.user_id =1
-   # if item_type=="people":
-    #    new_favorite.type=Favorite_types.people
-     #   new_favorite.people_id=item_id
-    #elif item_type=="planet":
-       # new_favorite.type=Favorite_types.planet
-        #new_favorite.planet_id=item_id
-    #else:
-     #   return jsonify({"tipo de favorito invalido"}),404
-    
-   #db.sesion.add(new_favorite)
-    #db.sesion.commit()
-    #return jsonify({"msg":"creado con exito", "favorite": new_favorite.serialize()}),201
+
 
 
 
